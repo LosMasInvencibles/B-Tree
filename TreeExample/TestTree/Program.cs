@@ -71,30 +71,7 @@ namespace TestTree
             //Console.ReadKey();
             #endregion
 
-            NodeB<int> node = new NodeB<int>(5);
-            Random rand = new Random();
-            while (!node.OverFlowNodeValues)
-            {
-                node.AddValueToList(rand.Next(1, 20));
-            }
-            NodeB<int> A;
-            NodeB<int> B;
-            int m;
-            node.SplitNode(out A, out B, out m);
-            string text = string.Empty;
-            foreach(int num in A.Values)
-            {
-                text += num.ToString() + ",";
-            }
-            Console.WriteLine(text);
-            Console.WriteLine(m.ToString());
-            text = string.Empty;
-            foreach (int num in B.Values)
-            {
-                text += num.ToString() + ",";
-            }
-            Console.WriteLine(text);
-            Console.Read();
+            //Write exe code here
         }
     }
 }

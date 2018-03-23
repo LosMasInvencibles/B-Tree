@@ -46,7 +46,7 @@ namespace TreeExample
         /// <summary>
         /// Node Values
         /// </summary>
-        public List<T> Values { get; private set; }
+        public List<T> Values { get; set; }
         /// <summary>
         /// Node Children
         /// </summary>
@@ -54,7 +54,7 @@ namespace TreeExample
         /// <summary>
         /// Order of Owner Tree
         /// </summary>
-        public int Order { get; private set; }
+        public int Order { get; set; }
 
         /// <summary>
         /// Node Builder
